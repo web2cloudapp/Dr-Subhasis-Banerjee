@@ -21,28 +21,15 @@ export default function Research() {
             <p>Research on internet protocols, web technologies, and network infrastructure advancements.</p>
           </div>
 
-          <div className="border rounded-lg p-6 bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">Cache Performance</h3>
-            <p>Research on cache size, local memory optimization, performance metrics, and synthetic benchmarking techniques for modern processors.</p>
-          </div>
 
-          <div className="border rounded-lg p-6 bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">Containerization Technologies</h3>
-            <p>Exploring Docker, Kubernetes, and other containerization solutions for optimizing deployment strategies and computational efficiency.</p>
-          </div>
-
-          <div className="border rounded-lg p-6 bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">High Performance Computing</h3>
-            <p>Research on improving computing performance, resource utilization, and application optimization for modern processors.</p>
-          </div>
-
+       
           <div className="border rounded-lg p-6 bg-white shadow-sm">
             <h3 className="text-xl font-semibold mb-3">Ad-hoc Networks</h3>
             <p>Specialized research in ad-hoc network protocols, security mechanisms, and performance optimization.</p>
           </div>
 
           <div className="border rounded-lg p-6 bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">Emerging Technologies</h3>
+            <h3 className="text-xl font-semibold mb-3">Emerging Technologies (IOT, Cloud Computing)</h3>
             <p>Exploring cutting-edge technologies and their applications in computer science and information systems.</p>
           </div>
         </div>
