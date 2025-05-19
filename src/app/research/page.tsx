@@ -29,7 +29,7 @@ export default function Research() {
           </div>
 
           <div className="border rounded-lg p-6 bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">Emerging Technologies (IOT, Cloud Computing)</h3>
+            <h3 className="text-xl font-semibold mb-3">Emerging Technologies (IOT, Cloud Computing, Cryptography)</h3>
             <p>Exploring cutting-edge technologies and their applications in computer science and information systems.</p>
           </div>
         </div>
