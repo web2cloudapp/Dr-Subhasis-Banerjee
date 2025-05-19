@@ -8,29 +8,63 @@ export default function Publications() {
         <div className="space-y-6">
           {/* Publication 1 - from IEEE Xplore */}
           <div className="p-6 border rounded-lg bg-white shadow-sm">
-            <h3 className="text-xl font-medium mb-2">Optimizing the Efficiency of Computational Platforms: Traditional vs. Containerized Setups</h3>
-            <p className="mb-1"><strong>Authors:</strong> Rakshit, H., Banerjee, S.</p>
-            <p className="mb-1"><strong>Conference:</strong> 2025 3rd International Conference on Intelligent Systems, Advanced Computing and Communication (ISACC)</p>
-            <p className="mb-1"><strong>Year:</strong> 2025</p>
-            <p className="mb-1"><strong>Abstract:</strong> Optimizing computational platforms in digital labs is vital for education, research, and enterprise applications. Traditional setups face resource inefficiencies, scalability constraints, and configuration conflicts, hindering performance. This paper compares traditional and containerized setups using Docker and Kubernetes, evaluating metrics such as CPU usage, memory consumption, latency, and setup time.</p>
-            <p className="mb-1"><strong>Publisher:</strong> IEEE</p>
+            <h3 className="text-xl font-medium mb-2">
+              Optimizing the Efficiency of Computational Platforms: Traditional vs. Containerized Setups
+            </h3>
+            <p className="mb-1">
+              <strong>Authors:</strong> Rakshit, H., Banerjee, S.
+            </p>
+            <p className="mb-1">
+              <strong>Conference:</strong> 2025 3rd International Conference on Intelligent Systems, Advanced Computing and Communication (ISACC)
+            </p>
+            <p className="mb-1">
+              <strong>Year:</strong> 2025
+            </p>
+            <p className="mb-1">
+              <strong>Abstract:</strong> Optimizing computational platforms in digital labs is vital for education, research, and enterprise applications. Traditional setups face res[...]
+            </p>
+            <p className="mb-1">
+              <strong>Publisher:</strong> IEEE
+            </p>
           </div>
 
           {/* Publication 2 - from IEEE Xplore */}
           <div className="p-6 border rounded-lg bg-white shadow-sm">
-            <h3 className="text-xl font-medium mb-2">Scalability Evaluation on Zero Downtime Deployment in Kubernetes Cluster</h3>
-            <p className="mb-1"><strong>Authors:</strong> Rakshit, H., Banerjee, S.</p>
-            <p className="mb-1"><strong>Conference:</strong> 2024 IEEE Calcutta Conference (CALCON)</p>
-            <p className="mb-1"><strong>Year:</strong> 2024</p>
-            <p className="mb-1"><strong>Abstract:</strong> This article investigates the relative impact of zero downtime deployment strategies on the scalability of applications within Kubernetes clusters. Ensuring uninterrupted service delivery while managing changing workloads is crucial in modern software development. Strategies like rolling updates, blue-green deployments, and canary releases enable seamless updates without service interruptions.</p>
-            <p className="mb-1"><strong>Publisher:</strong> IEEE</p>
+            <h3 className="text-xl font-medium mb-2">
+              Scalability Evaluation on Zero Downtime Deployment in Kubernetes Cluster
+            </h3>
+            <p className="mb-1">
+              <strong>Authors:</strong> Rakshit, H., Banerjee, S.
+            </p>
+            <p className="mb-1">
+              <strong>Conference:</strong> 2024 IEEE Calcutta Conference (CALCON)
+            </p>
+            <p className="mb-1">
+              <strong>Year:</strong> 2024
+            </p>
+            <p className="mb-1">
+              <strong>Abstract:</strong> This article investigates the relative impact of zero downtime deployment strategies on the scalability of applications within Kubernetes clu[...]
+            </p>
+            <p className="mb-1">
+              <strong>Publisher:</strong> IEEE
+            </p>
           </div>
+        </div>
+      </div>
 
-
-   
       <div className="mt-12 p-6 border rounded-lg bg-slate-50">
         <h3 className="text-lg font-semibold mb-2">Note:</h3>
-        <p>For the most up-to-date list of publications, please visit my <a href="https://scholar.google.com/citations?user=2tSem3wAAAAJ&hl=en" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Google Scholar</a>, <a href="https://ieeexplore.ieee.org/author/37085767208" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">IEEE Xplore</a>, or <a href="https://visvabharati.irins.org/profile/215837" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">IRINS</a> profile.</p>
+        <p>
+          For the most up-to-date list of publications, please visit my{" "}
+          <a
+            href="https://scholar.google.com/citations?user=2tSem3wAAAAJ&hl=en"
+            className="text-blue-600 hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google Scholar Profile
+          </a>.
+        </p>
       </div>
     </div>
   );
