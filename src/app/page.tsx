@@ -67,6 +67,10 @@ export default function Home() {
             <h3>University Profile</h3>
             <p><a href="https://www.visvabharati.ac.in/computerscience.html" target="_blank" rel="noopener noreferrer">Department Page</a></p>
           </div>
+          <div className="profile-item">
+            <h3>Linkedin</h3>
+            <p><a href="https://www.linkedin.com/in/subhasis-banerjee-05313853/" target="_blank" rel="noopener noreferrer">Linkedin</a></p>
+          </div>
         </div>
       </section>
 
