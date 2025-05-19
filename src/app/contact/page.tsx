@@ -122,6 +122,18 @@ export default function Contact() {
                   </a>
                 </li>
               </ul>
+               <ul className="ml-4 space-y-2">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/subhasis-banerjee-05313853/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:underline"
+                  >
+                    Linkedin
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div>
