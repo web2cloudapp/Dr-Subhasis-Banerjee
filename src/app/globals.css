@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+@layer components {
+  header {
+    @apply border-b border-gray-200;
+  }
+
+  .header-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center py-6;
+  }
+
+  .site-title {
+    @apply text-2xl font-bold mb-4 md:mb-0;
+  }
+
+  .site-title a {
+    @apply text-primary hover:text-primary/80 no-underline;
+  }
+
+  .nav-menu {
+    @apply flex flex-wrap gap-4 md:gap-6 items-center justify-center;
+  }
+
+  .nav-menu li {
+    @apply list-none;
+  }
+
+  .nav-menu a {
+    @apply px-2 py-1 text-primary hover:text-primary/80 no-underline transition-colors font-medium;
+  }
+
+  .nav-menu a.active {
+    @apply border-b-2 border-primary font-semibold;
+  }
+
+  .profile {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+  }
+
+  .profile-content {
+    @apply flex flex-col md:flex-row gap-8 items-start;
+  }
+
+  .profile-img {
+    @apply w-full md:w-96 rounded;
+  }
+
+  .profile-info {
+    @apply flex flex-col gap-2;
+  }
+
+  .profile-info h2 {
+    @apply text-3xl font-bold;
+  }
+
+  .designation {
+    @apply text-xl font-medium;
+  }
+
+  .cv-link {
+    @apply inline-block mt-4 px-4 py-2 bg-[#4a6d7c] hover:bg-[#4a6d7c]/90 text-white rounded transition-colors;
+  }
+
+  .academic-profiles {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+  }
+
+  .academic-profiles h2,
+  .biography h2 {
+    @apply text-2xl font-bold mb-6;
+  }
+
+  .profiles-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6;
+  }
+
+  .profile-item {
+    @apply border-l-4 border-[#4a6d7c] pl-4 py-2;
+  }
+
+  .profile-item h3 {
+    @apply text-lg font-semibold mb-1;
+  }
+
+  .profile-item p {
+    @apply text-muted-foreground;
+  }
+
+  .profile-item a {
+    @apply hover:text-[#4a6d7c] transition-colors;
+  }
+
+  .biography {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 border-t border-muted;
+  }
+
+  .biography p {
+    @apply my-4;
+  }
+
+  footer {
+    @apply border-t border-muted py-6 text-center text-sm text-muted-foreground;
+  }
+}
