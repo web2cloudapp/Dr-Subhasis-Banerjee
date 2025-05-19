@@ -48,25 +48,7 @@ export default function Publications() {
         </div>
       </div>
 
-      <div>
-        <h2 className="text-2xl font-bold mb-4">Research Areas</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="p-6 border rounded-lg bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-2">Cache Performance</h3>
-            <p>Research on cache size, local memory, performance metrics, synthetic benchmarking, and access patterns in computing systems.</p>
-          </div>
 
-          <div className="p-6 border rounded-lg bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-2">Containerization</h3>
-            <p>Studies on container technologies like Docker and Kubernetes for optimizing deployment strategies and computational efficiency.</p>
-          </div>
-
-          <div className="p-6 border rounded-lg bg-white shadow-sm">
-            <h3 className="text-xl font-semibold mb-2">High Performance Computing</h3>
-            <p>Research on improving computing performance, resource utilization, and application optimization for modern processors.</p>
-          </div>
-        </div>
-      </div>
 
       <div className="mt-12 p-6 border rounded-lg bg-slate-50">
         <h3 className="text-lg font-semibold mb-2">Note:</h3>
