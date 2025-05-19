@@ -54,6 +54,9 @@ export default function CV() {
             <li>Internet Technology</li>
             <li>Emerging Technology</li>
             <li>Ad-hoc Network</li>
+            <li>Cryptography</li>
+            <li>Internet of Things</li>
+            
           </ul>
         </section>
 
