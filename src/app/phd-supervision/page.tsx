@@ -37,9 +37,5 @@ export default function PhDSupervision() {
         </ul>
       </div>
     </div>
-           <h2>Prospective PhD Students</h2>
-        <div class="prospective-info">
-            <p>Interested candidates should have a strong background in computer science or related disciplines, with good mathematical skills and programming abilities. Please see the Contact page for application details.</p>
-        </div>
   );
 }
