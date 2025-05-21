@@ -21,7 +21,7 @@ export default function Home() {
             <p><em>Visva-Bharati</em></p>
             <p><em>Santiniketan – 731235</em></p>
             <p><em>Birbhum, WB, INDIA</em></p>
-            <p>Date of joining: 11.03.2002</p>
+{/*             <p>Date of joining: 11.03.2002</p> */}
             <p>E-mail: subhasis.banerjee@visva-bharati.ac.in</p>
             <p><a href="/cv" className="cv-link">Download CV</a></p>
           </div>
