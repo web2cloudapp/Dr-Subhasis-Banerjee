@@ -26,14 +26,13 @@ export default function PhDSupervision() {
       </div>
 
       <div className="mt-12">
-        <h2 className="text-2xl font-bold mb-4">Research Areas</h2>
-        <p className="mb-4">My PhD students conduct research in the following areas:</p>
+        <h2 className="text-2xl font-bold mb-4">For Prospective Students</h2>
+        <p className="mb-4">If you are interested in pursuing research under my supervision, please send an email with the following:</p>
         <ul className="list-disc pl-6 space-y-2">
-          <li>Wireless Communication</li>
-          <li>Distributed Systems</li>
-          <li>Ad-hoc Networks</li>
-          <li>Internet Technologies</li>
-          <li>Emerging Technologies</li>
+          <li>Your detailed CV</li>
+          <li>Research interests and proposal (1-2 pages)</li>
+          <li>Academic credentials and qualifications</li>
+
         </ul>
       </div>
     </div>
