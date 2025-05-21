@@ -9,7 +9,7 @@ export default function PhDSupervision() {
         {/* Current PhD Student 1 */}
         <div className="border rounded-lg p-6 bg-white shadow-sm">
           <h3 className="text-xl font-semibold mb-2">Haranath Rakshit</h3>
-          <p className="text-muted-foreground mb-1">Full-time Research Scholar</p>
+          <p className="text-muted-foreground mb-1">Full-time Research Scholar (JRF)</p>
           <p className="text-muted-foreground mb-1">Department of Computer and System Sciences</p>
           <p className="text-muted-foreground mb-1">Enrolled: 2022</p>
           <p className="mt-2 font-medium">Status: Currently pursuing under my supervision</p>
@@ -18,7 +18,7 @@ export default function PhDSupervision() {
         {/* Current PhD Student 2 */}
         <div className="border rounded-lg p-6 bg-white shadow-sm">
           <h3 className="text-xl font-semibold mb-2">Rajkumar Bhandari</h3>
-          <p className="text-muted-foreground mb-1">Full-time Research Scholar</p>
+          <p className="text-muted-foreground mb-1">Full-time Research Scholar (JRF)</p>
           <p className="text-muted-foreground mb-1">Department of Computer and System Sciences</p>
           <p className="text-muted-foreground mb-1">Enrolled: 2023</p>
           <p className="mt-2 font-medium">Status: Currently pursuing under my supervision</p>
